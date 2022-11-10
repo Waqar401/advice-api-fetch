@@ -1,0 +1,37 @@
+.twitter-quotes-main {
+    background-image: url('https://littlevisuals.co/images/Njoror.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter-quotes-sec {
+    width: 500px;
+    background-color: #00acee;
+    border-radius: 20px;
+    position: relative;
+    padding: 60px;
+}
+.twitter-quotes-sec .twitter-quote {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+}
+.twitter-quotes-sec::before {
+    content: url('https://api.iconify.design/ooui/quotes-ltr.svg?color=white&width=80&height=80');
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.twitter-quotes-sec::after {
+    content: url('https://api.iconify.design/ooui/quotes-rtl.svg?color=white&width=80&height=80');
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
